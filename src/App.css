@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+.moreSpace {
+  margin-top: 12%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.moreSpace1 {
+  margin-top: 80px;
+  animation-name: fade;
+  animation-duration: 2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* body {
+  background-color: rgb(116, 148, 207);
+} */
+
+.head {
+  background-color: rgba(116, 148, 207, .5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.slack {
+  color: black;
+}
+
+.moreMargin {
+  margin-left: 10%;
+}
+
+.space1 {
+  margin-top: 60px;
+  animation-name: lefter;
+  animation-duration: 1.5s;
+}
+
+.space2 {
+  margin-top: 15px;
+}
+
+.btn-primary {
+  background-color: rgba(116, 148, 207, 0.5);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: rgba(7, 71, 110, 0.5);
+
+}
+
+.btn-primary:focus {
+  background-color: rgba(116, 148, 207, 0.5);
+}
+
+.color {
+  background-color: rgba(116, 148, 207, 0.5);
+}
+
+.color:hover {
+  background-color: rgba(0, 50, 143, 0.5);
+}
+
+.blue {
+  background-color: rgba(116, 148, 207, 0.5);
+}
+
+.back {
+  background-color: white;
+  color: black;
+}
+
+.lessPadding {
+  margin-top: 0px;
+}
+
+.text-dark {
+  color: black;
+}
+
+.cadetblue {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-dark {
+  background-color: rgb(116, 148, 207);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card1 {
+  border: none;
+  box-shadow: 0px 0px 15px rgb(255, 255, 255);
+  background-color: rgba(116, 148, 207, .5);
+}
+
+.backgt {
+  background-color: rgb(116, 148, 207);
+}
+
+.biggerLetters {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.moreMargin {
+  margin-bottom: 0px;
+  margin-top: 70px;
+}
+
+.moreHeight {
+  height: 100px;
+}
+
+.space2 {
+  margin-top: 100px;
+}
+
+.left {
+  margin: auto;
+}
+
+.bigLogo {
+  font-size: 3rem;
+}
+
+.house {
+  background-image: url("https://i.pinimg.com/originals/c7/a3/fc/c7a3fc2ea33276ac6e2ff47ecc7b4d94.jpg");
+  background-repeat: no-repeat;
+}
+
+.house1 {
+  background-image: url("https://i.pinimg.com/originals/19/9f/59/199f59651bb9f0a99b54465b0c927688.jpg");
+}
+
+.house2 {
+  background-image: url("https://i.pinimg.com/originals/ba/27/18/ba2718fbbff1596117f5d896f8cc96a6.jpg");
+  background-attachment: fixed;
+}
+
+.house3 {
+  background-image: url("https://www.medhatlodge.com/wp-content/uploads/careers-header.jpg");
+}
+
+@keyframes fade {
+  from {margin-top: 0px;}
+  to {margin-top: 80px;}
+}
+
+@keyframes lefter {
+  from {margin-top: 0px;}
+  to {margin-top: 60px; }
 }
