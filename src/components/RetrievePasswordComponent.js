@@ -6,7 +6,7 @@ const RetrievePassword = () => {
         <React.Fragment>
         <Navbar expand="md" className="navbar-dark">
             <div className="container">
-                <NavbarBrand className="bigLogo white">RGM</NavbarBrand>
+                <NavbarBrand className="bigLogo white" href="/">RGM</NavbarBrand>
             </div>
         </Navbar>
 
